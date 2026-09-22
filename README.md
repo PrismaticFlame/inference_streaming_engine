@@ -12,7 +12,7 @@
 
 ## Architecture
 
-![Inference Engine Architecture Diagram](inference_engine.drawio.png)
+![Inference Engine Architecture Diagram](public/inference_engine.drawio.png)
 
 ## Structure
 

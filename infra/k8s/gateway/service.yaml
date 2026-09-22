@@ -7,8 +7,8 @@ metadata:
 spec:
   type: NodePort
   ports:
-    - port: 8000
-      targetPort: 8000
-      nodePort: 30080
+    - port: 8000        # pods inside "dial"   gateway:8000
+      targetPort: 8000  # forward it to the container listening on 8000
+      nodePort: 30080   # and open localhost:30080 for users
   selector:
     app: gateway

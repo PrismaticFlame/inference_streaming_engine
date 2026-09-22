@@ -12,4 +12,5 @@ spec:
     targetPort: 9092
   selector:
     app: redpanda
-  type: ClusterIP
+  type: ClusterIP  # means that this service is only reachable from within the cluster
+
