@@ -10,6 +10,10 @@
 
 **Self created serving layer for a transformer model. *Idea* given by Claude Opus 4.8. *Implementation* done by me.**
 
+## Architecture
+
+![Inference Engine Architecture Diagram](inference_engine.drawio.png)
+
 ## Structure
 
 ## How to Use
