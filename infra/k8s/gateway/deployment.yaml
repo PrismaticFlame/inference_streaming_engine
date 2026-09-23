@@ -23,3 +23,15 @@ spec:
                 name: app-config
           ports: 
             - containerPort: 8000
+          resources:
+            requests:
+              cpu: 50m
+              memory: 128Mi
+            limits:
+              cpu: 500m
+              memory: 512Mi
+          behavior:
+            scaleUp:
+              stabilizationWindowSeconds: 30
+            scaleDown:
+              stabilizationWindowSeconds: 120

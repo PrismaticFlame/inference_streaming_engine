@@ -46,6 +46,10 @@ services:
       # Tells Seastar (the framework Redpanda uses under the hood) to use 1 core on the system.
       - --smp 1
       - --default-log-level=info
+      - --memory
+      - 1G
+      - --reserve-memory
+      - 0M
     image: docker.redpanda.com/redpandadata/redpanda:v26.1.12
     volumes:
       - redpanda-0:/var/lib/redpanda/data
