@@ -17,7 +17,8 @@
 
 ![Inference Engine Architecture Diagram](public/inference_engine.drawio.png)
 
-> [!NOTE] Incorrect Naming in Tiles
+> [!NOTE] 
+> **Incorrect Naming in Tiles**
 > I have realized after putting this on the README that I copy and pasted some of the blocks and they do not have the correct wording on them. The left one should be 
 > Redpanda, and the right one should be labeled "Responses topic" which is part of Redis
 
